@@ -207,9 +207,9 @@
 }
 
 .crew-avatar {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  right: 40rem;
+  right: 0rem;
 
   @media screen and (max-width: 430px) {
     position: unset;
