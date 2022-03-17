@@ -20,27 +20,15 @@
     background-color: var(--color-white);
     filter: opacity(30%);
     z-index: -1;
+
+    @media screen and (max-width: 430px) {
+      display: none;
+    }
+    @media (min-width: 768px) and (max-width: 1180px) {
+      display: none;
+    }
   }
 }
-
-// .line {
-//   position: fixed;
-//   width: 77.3rem;
-//   top: 7%;
-//   left: 15%;
-//   height: 0.1rem;
-//   // transform: translate(-50%, -50%);
-//   background-color: var(--color-white);
-//   z-index: 6000;
-//   filter: opacity(30%);
-
-//   @media screen and (max-width: 430px) {
-//     display: none;
-//   }
-//   @media screen and (max-width: 900px) {
-//     display: none;
-//   }
-// }
 
 .navigation {
   background: rgba(255, 255, 255, 0.04);
